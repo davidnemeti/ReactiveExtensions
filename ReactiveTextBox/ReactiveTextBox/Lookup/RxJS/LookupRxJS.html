@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<div>
+    <label>Search text:</label>
+    <input type="text" id="inputText" />
+    <input type="button" id="cancelButton" value="Cancel" onclick="$('#inputText').focus()" disabled />
+</div>
+<br />
+<div>
+    <label>Search result:</label>
+    <ul id="searchResult"></ul>
+</div>
+
+<script src="../../Scripts/jquery-3.2.1.js"></script>
+<script src="../../Scripts/rx.all.js"></script>
+<script src="LookupRxJS.js"></script>
+</body>
+</html>
