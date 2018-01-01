@@ -11,6 +11,9 @@ This is yet another another *sample* note.{: .note .info }
 {: .note .info }
 This is yet another another another *sample* note.
 
+This is the last *sample* note.
+{: .note .info }
+
 <div class="note">
   <h5>ProTips™ help you get more from Jekyll</h5>
   <p>These are tips and tricks that will help you be a Jekyll wizard!</p>
