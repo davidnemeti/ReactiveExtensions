@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import "mixins";
 
 .alert {
     background: green;
